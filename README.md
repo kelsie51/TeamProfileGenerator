@@ -31,4 +31,4 @@ Users should refer to the Installation Section.
  Run Jest for tests on the Constructors. 
 
 ## Questions
- Any questions ? Email me at kelsie51@hotmail.com, Github URL for project at https://github.com/kelsie51
+ Any questions ? Email me at kelsie51@hotmail.com, Github URL for project at https://kelsie51.github.io/TeamProfileGenerator/dist/
