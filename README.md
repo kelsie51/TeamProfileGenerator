@@ -17,6 +17,9 @@ With the Repository the user should 1st install Node. And then the FS,Inquirer p
 
 ## Usage 
 Inquirer with Command line, Prompt and answer questions about thier project.
+Video demo - [Screencastify](https://drive.google.com/file/d/1k20fEGA5xjXGrMuaATUmjHa_XM-ZP_VD/view)<br>
+<img src="screenshot.png">
+
 
 ## License 
 Licensed under MIT
