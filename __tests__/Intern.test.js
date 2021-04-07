@@ -1,23 +1,23 @@
 // Engineer constructor 
-const Engineer = require('../lib/Engineer');
+const Intern = require('../lib/Intern');
 
-// Create Engineer object  
-test('Create an Engineer object', () => {
-    const engineer = new Engineer('Roberta', 51, 'Roberta.smerta@gmail', 'robertasmerta51');
+// Create Intern object  
+test('Create an intern object', () => {
+    const intern = new Intern('Roberta', 'Roberta.smerta@gmail', 51,  'U of M');
     
-    expect(engineer.github) .toEqual(expect.any(String));
+    expect(intern.school) .toEqual(expect.any(String));
 });
 
-// Github testing()
-test('Engineer github value', () => {
-    const engineer = new Engineer('Roberta', 51, 'Roberta.smerta@gmail', 'robertasmerta51');
+// School testing()
+test('intern school value', () => {
+    const intern = new Intern('Roberta', 'Roberta.smerta@gmail', 51,  'U of M');
 
-    expect(engineer.getGithub()).toEqual(expect.stringContaining(engineer.github.toString()));
+    expect(intern.getSchool()).toEqual(expect.stringContaining(intern.school.toString()));
 });
 
 // Role testing() 
 test('Role of the Employee', () => {
-    const engineer = new Engineer('Roberta', 51, 'Roberta.smerta@gmail', 'robertasmerta51');
+    const intern = new Intern('Roberta', 'Roberta.smerta@gmail', 51,  'U of M');
 
-    expect(engineer.getRole()).toEqual("Engineer");
+    expect(intern.getRole()).toEqual("Intern");
 });
