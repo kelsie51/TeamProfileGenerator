@@ -2,7 +2,7 @@ var fs = require('fs');
 var inquirer = require('inquirer');
 var jest = require('jest');
 
-var Employee = require('./employee');
+var Employee = require('./lib/employee');
 var Engineer = require('./engineer');
 var Intern = require('./intern');
 var Manager = require('./manager');
